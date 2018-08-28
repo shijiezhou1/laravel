@@ -14,8 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('itemCRUD','ItemCRUDController');
-
-//这个router 是说你的位置在localhost:8000/products 第二个变量是你的controller
-Route::resource('products','ProductController');
